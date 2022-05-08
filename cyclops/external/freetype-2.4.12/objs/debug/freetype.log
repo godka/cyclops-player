@@ -1,9 +1,0 @@
-﻿Build started 2015/6/5 20:11:16.
-     1>Project "E:\vs2013\cyclops\cyclops\external\freetype-2.4.12\builds\win32\vc2010\freetype.vcxproj" on node 3 (Build target(s)).
-     1>Lib:
-         freetype.vcxproj -> E:\vs2013\cyclops\cyclops\external\freetype-2.4.12\builds\win32\vc2010\.\..\..\..\objs\win32\vc2010\freetype2412_D.lib
-     1>Done Building Project "E:\vs2013\cyclops\cyclops\external\freetype-2.4.12\builds\win32\vc2010\freetype.vcxproj" (Build target(s)).
-
-Build succeeded.
-
-Time Elapsed 00:00:00.15
