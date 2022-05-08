@@ -1,0 +1,110 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="源文件">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="头文件">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hpp;hxx;hm;inl;inc;xsd</Extensions>
+    </Filter>
+    <Filter Include="资源文件">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+    <Filter Include="源文件\kernel">
+      <UniqueIdentifier>{5090b2c6-9f9b-4cd5-ae07-e2e2fb8c6a95}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="源文件\decoder">
+      <UniqueIdentifier>{6338a9e5-74ec-4a31-8bf3-fd46d7da3398}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="源文件\decoder\live555">
+      <UniqueIdentifier>{9aadd253-4de0-44c5-93e0-ea892e0f2c06}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="源文件\player">
+      <UniqueIdentifier>{38e91314-5ef8-46f6-afeb-2067a74599a9}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="源文件\dll">
+      <UniqueIdentifier>{4af4f47d-2c65-4407-8245-0ba988e0a89f}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="源文件\app">
+      <UniqueIdentifier>{379da8e1-4a07-416f-ae95-b9139cc0f195}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="源文件\decoder\stream">
+      <UniqueIdentifier>{2666e1fa-7950-4436-a39f-6c2a6c829b90}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="MythSocket.cpp">
+      <Filter>源文件\kernel</Filter>
+    </ClCompile>
+    <ClCompile Include="mythFFmpeg.cpp">
+      <Filter>源文件\kernel</Filter>
+    </ClCompile>
+    <ClCompile Include="mythAvlist.cpp">
+      <Filter>源文件\kernel</Filter>
+    </ClCompile>
+    <ClCompile Include="H264VideoStreamSink.cpp">
+      <Filter>源文件\decoder\live555</Filter>
+    </ClCompile>
+    <ClCompile Include="mythLive555Decoder.cpp">
+      <Filter>源文件\decoder\live555</Filter>
+    </ClCompile>
+    <ClCompile Include="mythVirtualDecoder.cpp">
+      <Filter>源文件\decoder</Filter>
+    </ClCompile>
+    <ClCompile Include="rtspcore.cpp">
+      <Filter>源文件\decoder\live555</Filter>
+    </ClCompile>
+    <ClCompile Include="StreamSink.cpp">
+      <Filter>源文件\decoder\live555</Filter>
+    </ClCompile>
+    <ClCompile Include="MythVirtualVideoPlayer.cpp">
+      <Filter>源文件\player</Filter>
+    </ClCompile>
+    <ClCompile Include="MythH264VideoPlayer.cpp">
+      <Filter>源文件\player</Filter>
+    </ClCompile>
+    <ClCompile Include="MythAvPlayerCore.cpp">
+      <Filter>源文件\dll</Filter>
+    </ClCompile>
+    <ClCompile Include="main.cpp">
+      <Filter>源文件\app</Filter>
+    </ClCompile>
+    <ClCompile Include="mythStreamDecoder.cpp">
+      <Filter>源文件\decoder\stream</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="mythVirtualDecoder.hh">
+      <Filter>头文件</Filter>
+    </None>
+    <None Include="mythLive555Decoder.hh">
+      <Filter>头文件</Filter>
+    </None>
+    <None Include="MythVirtualVideoPlayer.hh">
+      <Filter>头文件</Filter>
+    </None>
+    <None Include="MythH264VideoPlayer.hh">
+      <Filter>头文件</Filter>
+    </None>
+    <None Include="mythdef.def">
+      <Filter>源文件\dll</Filter>
+    </None>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="mythconfig.hh">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="MythAvPlayerCore.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="SDL_ttf.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <Library Include="libcurl.lib" />
+  </ItemGroup>
+</Project>

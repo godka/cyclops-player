@@ -1,0 +1,18 @@
+﻿Build started 2016/2/15 星期一 22:52:47.
+     1>Project "E:\vs2013\cyclops - 副本\cyclops\external\SDL2_ttf-2.0.12\VisualC\SDL_ttf_VS2012.vcxproj" on node 2 (Build target(s)).
+     1>ClCompile:
+         C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\CL.exe /c /I"..\..\SDL2-2.0.3\include" /Iexternal\include /I"E:\vs2013\cyclops - 副本\cyclops\external\SDL2_ttf-2.0.12\VisualC\\external\include" /ZI /nologo /W3 /WX- /Od /Oy- /D WIN32 /D _DEBUG /D _WINDOWS /D _VC80_UPGRADE=0x0600 /D _USING_V110_SDK71_ /D _MBCS /Gm /EHsc /MD /GS /fp:precise /Zc:wchar_t /Zc:forScope /Fo"Win32\Debug\\" /Fd"Win32\Debug\vc120.pdb" /Gd /TC /analyze- /errorReport:prompt ..\SDL_ttf.c
+         SDL_ttf.c
+       ResourceCompile:
+         C:\Program Files (x86)\Microsoft SDKs\Windows\v7.1A\bin\rc.exe /D _DEBUG /D _VC80_UPGRADE=0x0600 /D _USING_V110_SDK71_ /l"0x0409" /nologo /fo"Win32\Debug\Version.res" Version.rc 
+       Lib:
+         C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\Lib.exe /OUT:"Win32\Debug\SDL2_ttf.lib" /NOLOGO Win32\Debug\Version.res
+         Win32\Debug\SDL_ttf.obj
+         freetype2412_D.lib
+     1>LINK : warning LNK4068: /MACHINE not specified; defaulting to X86
+         SDL_ttf_VS2012.vcxproj -> E:\vs2013\cyclops - 副本\cyclops\external\SDL2_ttf-2.0.12\VisualC\Win32\Debug\SDL2_ttf.lib
+     1>Done Building Project "E:\vs2013\cyclops - 副本\cyclops\external\SDL2_ttf-2.0.12\VisualC\SDL_ttf_VS2012.vcxproj" (Build target(s)).
+
+Build succeeded.
+
+Time Elapsed 00:00:00.61

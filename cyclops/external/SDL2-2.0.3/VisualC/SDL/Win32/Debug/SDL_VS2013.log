@@ -1,0 +1,9 @@
+﻿Build started 2016/2/15 星期一 22:55:23.
+     1>Project "E:\vs2013\cyclops - 副本\cyclops\external\SDL2-2.0.3\VisualC\SDL\SDL_VS2013.vcxproj" on node 2 (Build target(s)).
+     1>Lib:
+         SDL_VS2013.vcxproj -> E:\vs2013\cyclops - 副本\cyclops\external\SDL2-2.0.3\VisualC\SDL\Win32\Debug\SDL2.lib
+     1>Done Building Project "E:\vs2013\cyclops - 副本\cyclops\external\SDL2-2.0.3\VisualC\SDL\SDL_VS2013.vcxproj" (Build target(s)).
+
+Build succeeded.
+
+Time Elapsed 00:00:00.08

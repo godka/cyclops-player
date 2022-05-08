@@ -1,0 +1,11 @@
+LIBRARY			"sdl2inubuntu"
+
+
+EXPORTS			Myth_ZiyaDecoder_Create
+EXPORTS			Myth_Live555Decoder_Create
+EXPORTS			Myth_H264VideoPlayer_Create
+EXPORTS			Myth_H264VideoPlayer_Start
+EXPORTS			Myth_H264VideoPlayer_Stop
+EXPORTS			Myth_VideoPlayer_SetText
+EXPORTS			Myth_VideoPlayer_Capture
+EXPORTS			Myth_VideoPlayer_SetAlpha

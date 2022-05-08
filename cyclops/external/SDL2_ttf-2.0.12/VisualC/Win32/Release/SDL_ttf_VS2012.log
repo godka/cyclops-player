@@ -1,0 +1,389 @@
+﻿Build started 2022/5/8 23:56:38.
+     1>Project "H:\vs2013\cyclops-release\cyclops\external\SDL2_ttf-2.0.12\VisualC\SDL_ttf_VS2012.vcxproj" on node 2 (Build target(s)).
+     1>ClCompile:
+         C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\CL.exe /c /I"..\..\SDL2-2.0.3\include" /Iexternal\include /I"H:\vs2013\cyclops-release\cyclops\external\SDL2_ttf-2.0.12\VisualC\\external\include" /Zi /nologo /W3 /WX- /O2 /Ob1 /Oy- /D WIN32 /D NDEBUG /D _WINDOWS /D _VC80_UPGRADE=0x0600 /D _USING_V110_SDK71_ /D _MBCS /GF /Gm- /EHsc /MD /GS /Gy /fp:precise /Zc:wchar_t /Zc:forScope /Fo"Win32\Release\\" /Fd"Win32\Release\vc120.pdb" /Gd /TC /analyze- /errorReport:prompt ..\SDL_ttf.c
+         SDL_ttf.c
+       ResourceCompile:
+         C:\Program Files (x86)\Microsoft SDKs\Windows\v7.1A\bin\rc.exe /D NDEBUG /D _VC80_UPGRADE=0x0600 /D _USING_V110_SDK71_ /l"0x0409" /nologo /fo"Win32\Release\Version.res" Version.rc 
+       Lib:
+         C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\Lib.exe /OUT:"Win32\Release\SDL2_ttf.lib" freetype2412.lib /NOLOGO Win32\Release\Version.res
+         Win32\Release\SDL_ttf.obj
+         freetype2412_D.lib
+     1>LINK : warning LNK4068: /MACHINE not specified; defaulting to X86
+     1>freetype2412_D.lib(autofit.obj) : warning LNK4006: _autofit_module_class already defined in freetype2412.lib(autofit.obj); second definition ignored
+     1>freetype2412_D.lib(autofit.obj) : warning LNK4006: _af_property_set already defined in freetype2412.lib(autofit.obj); second definition ignored
+     1>freetype2412_D.lib(autofit.obj) : warning LNK4006: _af_dummy_script_class already defined in freetype2412.lib(autofit.obj); second definition ignored
+     1>freetype2412_D.lib(autofit.obj) : warning LNK4006: _af_latin_script_class already defined in freetype2412.lib(autofit.obj); second definition ignored
+     1>freetype2412_D.lib(autofit.obj) : warning LNK4006: _af_property_get already defined in freetype2412.lib(autofit.obj); second definition ignored
+     1>freetype2412_D.lib(autofit.obj) : warning LNK4006: _af_autofitter_interface already defined in freetype2412.lib(autofit.obj); second definition ignored
+     1>freetype2412_D.lib(autofit.obj) : warning LNK4006: _af_cjk_script_class already defined in freetype2412.lib(autofit.obj); second definition ignored
+     1>freetype2412_D.lib(autofit.obj) : warning LNK4006: _af_indic_script_class already defined in freetype2412.lib(autofit.obj); second definition ignored
+     1>freetype2412_D.lib(autofit.obj) : warning LNK4006: _af_glyph_hints_dump_points already defined in freetype2412.lib(autofit.obj); second definition ignored
+     1>freetype2412_D.lib(autofit.obj) : warning LNK4006: _af_glyph_hints_dump_segments already defined in freetype2412.lib(autofit.obj); second definition ignored
+     1>freetype2412_D.lib(autofit.obj) : warning LNK4006: _af_glyph_hints_get_num_segments already defined in freetype2412.lib(autofit.obj); second definition ignored
+     1>freetype2412_D.lib(autofit.obj) : warning LNK4006: _af_glyph_hints_get_segment_offset already defined in freetype2412.lib(autofit.obj); second definition ignored
+     1>freetype2412_D.lib(autofit.obj) : warning LNK4006: _af_glyph_hints_dump_edges already defined in freetype2412.lib(autofit.obj); second definition ignored
+     1>freetype2412_D.lib(autofit.obj) : warning LNK4006: _af_property_get_face_globals already defined in freetype2412.lib(autofit.obj); second definition ignored
+     1>freetype2412_D.lib(bdf.obj) : warning LNK4006: _bdf_driver_class already defined in freetype2412.lib(bdf.obj); second definition ignored
+     1>freetype2412_D.lib(bdf.obj) : warning LNK4006: _bdf_cmap_class already defined in freetype2412.lib(bdf.obj); second definition ignored
+     1>freetype2412_D.lib(bdf.obj) : warning LNK4221: This object file does not define any previously undefined public symbols, so it will not be used by any link operation that consumes this library
+     1>freetype2412_D.lib(cff.obj) : warning LNK4006: _cff_driver_class already defined in freetype2412.lib(cff.obj); second definition ignored
+     1>freetype2412_D.lib(cff.obj) : warning LNK4006: _cff_cmap_encoding_class_rec already defined in freetype2412.lib(cff.obj); second definition ignored
+     1>freetype2412_D.lib(cff.obj) : warning LNK4006: _cff_cmap_unicode_class_rec already defined in freetype2412.lib(cff.obj); second definition ignored
+     1>freetype2412_D.lib(ftbase.obj) : warning LNK4006: _ft_raccess_guess_table already defined in freetype2412.lib(ftbase.obj); second definition ignored
+     1>freetype2412_D.lib(ftbase.obj) : warning LNK4006: _FT_New_Face already defined in freetype2412.lib(ftbase.obj); second definition ignored
+     1>freetype2412_D.lib(ftbase.obj) : warning LNK4006: _FT_New_Memory_Face already defined in freetype2412.lib(ftbase.obj); second definition ignored
+     1>freetype2412_D.lib(ftbase.obj) : warning LNK4006: _FT_Open_Face already defined in freetype2412.lib(ftbase.obj); second definition ignored
+     1>freetype2412_D.lib(ftbase.obj) : warning LNK4006: _FT_Attach_File already defined in freetype2412.lib(ftbase.obj); second definition ignored
+     1>freetype2412_D.lib(ftbase.obj) : warning LNK4006: _FT_Attach_Stream already defined in freetype2412.lib(ftbase.obj); second definition ignored
+     1>freetype2412_D.lib(ftbase.obj) : warning LNK4006: _FT_Reference_Face already defined in freetype2412.lib(ftbase.obj); second definition ignored
+     1>freetype2412_D.lib(ftbase.obj) : warning LNK4006: _FT_Done_Face already defined in freetype2412.lib(ftbase.obj); second definition ignored
+     1>freetype2412_D.lib(ftbase.obj) : warning LNK4006: _FT_Select_Size already defined in freetype2412.lib(ftbase.obj); second definition ignored
+     1>freetype2412_D.lib(ftbase.obj) : warning LNK4006: _FT_Request_Size already defined in freetype2412.lib(ftbase.obj); second definition ignored
+     1>freetype2412_D.lib(ftbase.obj) : warning LNK4006: _FT_Set_Char_Size already defined in freetype2412.lib(ftbase.obj); second definition ignored
+     1>freetype2412_D.lib(ftbase.obj) : warning LNK4006: _FT_Set_Pixel_Sizes already defined in freetype2412.lib(ftbase.obj); second definition ignored
+     1>freetype2412_D.lib(ftbase.obj) : warning LNK4006: _FT_Load_Glyph already defined in freetype2412.lib(ftbase.obj); second definition ignored
+     1>freetype2412_D.lib(ftbase.obj) : warning LNK4006: _FT_Load_Char already defined in freetype2412.lib(ftbase.obj); second definition ignored
+     1>freetype2412_D.lib(ftbase.obj) : warning LNK4006: _FT_Set_Transform already defined in freetype2412.lib(ftbase.obj); second definition ignored
+     1>freetype2412_D.lib(ftbase.obj) : warning LNK4006: _FT_Render_Glyph already defined in freetype2412.lib(ftbase.obj); second definition ignored
+     1>freetype2412_D.lib(ftbase.obj) : warning LNK4006: _FT_Get_Kerning already defined in freetype2412.lib(ftbase.obj); second definition ignored
+     1>freetype2412_D.lib(ftbase.obj) : warning LNK4006: _FT_Get_Track_Kerning already defined in freetype2412.lib(ftbase.obj); second definition ignored
+     1>freetype2412_D.lib(ftbase.obj) : warning LNK4006: _FT_Get_Glyph_Name already defined in freetype2412.lib(ftbase.obj); second definition ignored
+     1>freetype2412_D.lib(ftbase.obj) : warning LNK4006: _FT_Get_Postscript_Name already defined in freetype2412.lib(ftbase.obj); second definition ignored
+     1>freetype2412_D.lib(ftbase.obj) : warning LNK4006: _FT_Select_Charmap already defined in freetype2412.lib(ftbase.obj); second definition ignored
+     1>freetype2412_D.lib(ftbase.obj) : warning LNK4006: _FT_Set_Charmap already defined in freetype2412.lib(ftbase.obj); second definition ignored
+     1>freetype2412_D.lib(ftbase.obj) : warning LNK4006: _FT_Get_Charmap_Index already defined in freetype2412.lib(ftbase.obj); second definition ignored
+     1>freetype2412_D.lib(ftbase.obj) : warning LNK4006: _FT_Get_Char_Index already defined in freetype2412.lib(ftbase.obj); second definition ignored
+     1>freetype2412_D.lib(ftbase.obj) : warning LNK4006: _FT_Get_First_Char already defined in freetype2412.lib(ftbase.obj); second definition ignored
+     1>freetype2412_D.lib(ftbase.obj) : warning LNK4006: _FT_Get_Next_Char already defined in freetype2412.lib(ftbase.obj); second definition ignored
+     1>freetype2412_D.lib(ftbase.obj) : warning LNK4006: _FT_Get_Name_Index already defined in freetype2412.lib(ftbase.obj); second definition ignored
+     1>freetype2412_D.lib(ftbase.obj) : warning LNK4006: _FT_Get_SubGlyph_Info already defined in freetype2412.lib(ftbase.obj); second definition ignored
+     1>freetype2412_D.lib(ftbase.obj) : warning LNK4006: _FT_Face_GetCharVariantIndex already defined in freetype2412.lib(ftbase.obj); second definition ignored
+     1>freetype2412_D.lib(ftbase.obj) : warning LNK4006: _FT_Face_GetCharVariantIsDefault already defined in freetype2412.lib(ftbase.obj); second definition ignored
+     1>freetype2412_D.lib(ftbase.obj) : warning LNK4006: _FT_Face_GetVariantSelectors already defined in freetype2412.lib(ftbase.obj); second definition ignored
+     1>freetype2412_D.lib(ftbase.obj) : warning LNK4006: _FT_Face_GetVariantsOfChar already defined in freetype2412.lib(ftbase.obj); second definition ignored
+     1>freetype2412_D.lib(ftbase.obj) : warning LNK4006: _FT_Face_GetCharsOfVariant already defined in freetype2412.lib(ftbase.obj); second definition ignored
+     1>freetype2412_D.lib(ftbase.obj) : warning LNK4006: _FT_MulDiv already defined in freetype2412.lib(ftbase.obj); second definition ignored
+     1>freetype2412_D.lib(ftbase.obj) : warning LNK4006: _FT_DivFix already defined in freetype2412.lib(ftbase.obj); second definition ignored
+     1>freetype2412_D.lib(ftbase.obj) : warning LNK4006: _FT_RoundFix already defined in freetype2412.lib(ftbase.obj); second definition ignored
+     1>freetype2412_D.lib(ftbase.obj) : warning LNK4006: _FT_CeilFix already defined in freetype2412.lib(ftbase.obj); second definition ignored
+     1>freetype2412_D.lib(ftbase.obj) : warning LNK4006: _FT_FloorFix already defined in freetype2412.lib(ftbase.obj); second definition ignored
+     1>freetype2412_D.lib(ftbase.obj) : warning LNK4006: _FT_Vector_Transform already defined in freetype2412.lib(ftbase.obj); second definition ignored
+     1>freetype2412_D.lib(ftbase.obj) : warning LNK4006: _FT_Library_Version already defined in freetype2412.lib(ftbase.obj); second definition ignored
+     1>freetype2412_D.lib(ftbase.obj) : warning LNK4006: _FT_Add_Module already defined in freetype2412.lib(ftbase.obj); second definition ignored
+     1>freetype2412_D.lib(ftbase.obj) : warning LNK4006: _FT_Get_Module already defined in freetype2412.lib(ftbase.obj); second definition ignored
+     1>freetype2412_D.lib(ftbase.obj) : warning LNK4006: _FT_Remove_Module already defined in freetype2412.lib(ftbase.obj); second definition ignored
+     1>freetype2412_D.lib(ftbase.obj) : warning LNK4006: _FT_Property_Set already defined in freetype2412.lib(ftbase.obj); second definition ignored
+     1>freetype2412_D.lib(ftbase.obj) : warning LNK4006: _FT_Property_Get already defined in freetype2412.lib(ftbase.obj); second definition ignored
+     1>freetype2412_D.lib(ftbase.obj) : warning LNK4006: _FT_Reference_Library already defined in freetype2412.lib(ftbase.obj); second definition ignored
+     1>freetype2412_D.lib(ftbase.obj) : warning LNK4006: _FT_New_Library already defined in freetype2412.lib(ftbase.obj); second definition ignored
+     1>freetype2412_D.lib(ftbase.obj) : warning LNK4006: _FT_Done_Library already defined in freetype2412.lib(ftbase.obj); second definition ignored
+     1>freetype2412_D.lib(ftbase.obj) : warning LNK4006: _FT_Set_Debug_Hook already defined in freetype2412.lib(ftbase.obj); second definition ignored
+     1>freetype2412_D.lib(ftbase.obj) : warning LNK4006: _FT_Get_TrueType_Engine_Type already defined in freetype2412.lib(ftbase.obj); second definition ignored
+     1>freetype2412_D.lib(ftbase.obj) : warning LNK4006: _FT_Matrix_Multiply already defined in freetype2412.lib(ftbase.obj); second definition ignored
+     1>freetype2412_D.lib(ftbase.obj) : warning LNK4006: _FT_Matrix_Invert already defined in freetype2412.lib(ftbase.obj); second definition ignored
+     1>freetype2412_D.lib(ftbase.obj) : warning LNK4006: _FT_Get_Renderer already defined in freetype2412.lib(ftbase.obj); second definition ignored
+     1>freetype2412_D.lib(ftbase.obj) : warning LNK4006: _FT_Set_Renderer already defined in freetype2412.lib(ftbase.obj); second definition ignored
+     1>freetype2412_D.lib(ftbase.obj) : warning LNK4006: _FT_New_Size already defined in freetype2412.lib(ftbase.obj); second definition ignored
+     1>freetype2412_D.lib(ftbase.obj) : warning LNK4006: _FT_Done_Size already defined in freetype2412.lib(ftbase.obj); second definition ignored
+     1>freetype2412_D.lib(ftbase.obj) : warning LNK4006: _FT_Activate_Size already defined in freetype2412.lib(ftbase.obj); second definition ignored
+     1>freetype2412_D.lib(ftbase.obj) : warning LNK4006: _ft_mem_alloc already defined in freetype2412.lib(ftbase.obj); second definition ignored
+     1>freetype2412_D.lib(ftbase.obj) : warning LNK4006: _ft_mem_qalloc already defined in freetype2412.lib(ftbase.obj); second definition ignored
+     1>freetype2412_D.lib(ftbase.obj) : warning LNK4006: _ft_mem_realloc already defined in freetype2412.lib(ftbase.obj); second definition ignored
+     1>freetype2412_D.lib(ftbase.obj) : warning LNK4006: _ft_mem_qrealloc already defined in freetype2412.lib(ftbase.obj); second definition ignored
+     1>freetype2412_D.lib(ftbase.obj) : warning LNK4006: _ft_mem_free already defined in freetype2412.lib(ftbase.obj); second definition ignored
+     1>freetype2412_D.lib(ftbase.obj) : warning LNK4006: _ft_mem_strdup already defined in freetype2412.lib(ftbase.obj); second definition ignored
+     1>freetype2412_D.lib(ftbase.obj) : warning LNK4006: _ft_mem_dup already defined in freetype2412.lib(ftbase.obj); second definition ignored
+     1>freetype2412_D.lib(ftbase.obj) : warning LNK4006: _ft_mem_strcpyn already defined in freetype2412.lib(ftbase.obj); second definition ignored
+     1>freetype2412_D.lib(ftbase.obj) : warning LNK4006: _FT_GlyphLoader_New already defined in freetype2412.lib(ftbase.obj); second definition ignored
+     1>freetype2412_D.lib(ftbase.obj) : warning LNK4006: _FT_GlyphLoader_CreateExtra already defined in freetype2412.lib(ftbase.obj); second definition ignored
+     1>freetype2412_D.lib(ftbase.obj) : warning LNK4006: _FT_GlyphLoader_Done already defined in freetype2412.lib(ftbase.obj); second definition ignored
+     1>freetype2412_D.lib(ftbase.obj) : warning LNK4006: _FT_GlyphLoader_Reset already defined in freetype2412.lib(ftbase.obj); second definition ignored
+     1>freetype2412_D.lib(ftbase.obj) : warning LNK4006: _FT_GlyphLoader_Rewind already defined in freetype2412.lib(ftbase.obj); second definition ignored
+     1>freetype2412_D.lib(ftbase.obj) : warning LNK4006: _FT_GlyphLoader_CheckPoints already defined in freetype2412.lib(ftbase.obj); second definition ignored
+     1>freetype2412_D.lib(ftbase.obj) : warning LNK4006: _FT_GlyphLoader_CheckSubGlyphs already defined in freetype2412.lib(ftbase.obj); second definition ignored
+     1>freetype2412_D.lib(ftbase.obj) : warning LNK4006: _FT_GlyphLoader_Prepare already defined in freetype2412.lib(ftbase.obj); second definition ignored
+     1>freetype2412_D.lib(ftbase.obj) : warning LNK4006: _FT_GlyphLoader_Add already defined in freetype2412.lib(ftbase.obj); second definition ignored
+     1>freetype2412_D.lib(ftbase.obj) : warning LNK4006: _FT_GlyphLoader_CopyPoints already defined in freetype2412.lib(ftbase.obj); second definition ignored
+     1>freetype2412_D.lib(ftbase.obj) : warning LNK4006: _ft_service_list_lookup already defined in freetype2412.lib(ftbase.obj); second definition ignored
+     1>freetype2412_D.lib(ftbase.obj) : warning LNK4006: _ft_highpow2 already defined in freetype2412.lib(ftbase.obj); second definition ignored
+     1>freetype2412_D.lib(ftbase.obj) : warning LNK4006: _FT_CMap_New already defined in freetype2412.lib(ftbase.obj); second definition ignored
+     1>freetype2412_D.lib(ftbase.obj) : warning LNK4006: _FT_CMap_Done already defined in freetype2412.lib(ftbase.obj); second definition ignored
+     1>freetype2412_D.lib(ftbase.obj) : warning LNK4006: _FT_Get_Module_Interface already defined in freetype2412.lib(ftbase.obj); second definition ignored
+     1>freetype2412_D.lib(ftbase.obj) : warning LNK4006: _ft_module_get_service already defined in freetype2412.lib(ftbase.obj); second definition ignored
+     1>freetype2412_D.lib(ftbase.obj) : warning LNK4006: _FT_New_GlyphSlot already defined in freetype2412.lib(ftbase.obj); second definition ignored
+     1>freetype2412_D.lib(ftbase.obj) : warning LNK4006: _FT_Done_GlyphSlot already defined in freetype2412.lib(ftbase.obj); second definition ignored
+     1>freetype2412_D.lib(ftbase.obj) : warning LNK4006: _FT_Select_Metrics already defined in freetype2412.lib(ftbase.obj); second definition ignored
+     1>freetype2412_D.lib(ftbase.obj) : warning LNK4006: _FT_Request_Metrics already defined in freetype2412.lib(ftbase.obj); second definition ignored
+     1>freetype2412_D.lib(ftbase.obj) : warning LNK4006: _FT_Match_Size already defined in freetype2412.lib(ftbase.obj); second definition ignored
+     1>freetype2412_D.lib(ftbase.obj) : warning LNK4006: _ft_synthesize_vertical_metrics already defined in freetype2412.lib(ftbase.obj); second definition ignored
+     1>freetype2412_D.lib(ftbase.obj) : warning LNK4006: _ft_glyphslot_free_bitmap already defined in freetype2412.lib(ftbase.obj); second definition ignored
+     1>freetype2412_D.lib(ftbase.obj) : warning LNK4006: _ft_glyphslot_alloc_bitmap already defined in freetype2412.lib(ftbase.obj); second definition ignored
+     1>freetype2412_D.lib(ftbase.obj) : warning LNK4006: _ft_glyphslot_set_bitmap already defined in freetype2412.lib(ftbase.obj); second definition ignored
+     1>freetype2412_D.lib(ftbase.obj) : warning LNK4006: _FT_Lookup_Renderer already defined in freetype2412.lib(ftbase.obj); second definition ignored
+     1>freetype2412_D.lib(ftbase.obj) : warning LNK4006: _FT_Render_Glyph_Internal already defined in freetype2412.lib(ftbase.obj); second definition ignored
+     1>freetype2412_D.lib(ftbase.obj) : warning LNK4006: _FT_Get_Advance already defined in freetype2412.lib(ftbase.obj); second definition ignored
+     1>freetype2412_D.lib(ftbase.obj) : warning LNK4006: _FT_Get_Advances already defined in freetype2412.lib(ftbase.obj); second definition ignored
+     1>freetype2412_D.lib(ftbase.obj) : warning LNK4006: _FT_Sin already defined in freetype2412.lib(ftbase.obj); second definition ignored
+     1>freetype2412_D.lib(ftbase.obj) : warning LNK4006: _FT_Cos already defined in freetype2412.lib(ftbase.obj); second definition ignored
+     1>freetype2412_D.lib(ftbase.obj) : warning LNK4006: _FT_Tan already defined in freetype2412.lib(ftbase.obj); second definition ignored
+     1>freetype2412_D.lib(ftbase.obj) : warning LNK4006: _FT_Atan2 already defined in freetype2412.lib(ftbase.obj); second definition ignored
+     1>freetype2412_D.lib(ftbase.obj) : warning LNK4006: _FT_Angle_Diff already defined in freetype2412.lib(ftbase.obj); second definition ignored
+     1>freetype2412_D.lib(ftbase.obj) : warning LNK4006: _FT_Vector_Unit already defined in freetype2412.lib(ftbase.obj); second definition ignored
+     1>freetype2412_D.lib(ftbase.obj) : warning LNK4006: _FT_Vector_Rotate already defined in freetype2412.lib(ftbase.obj); second definition ignored
+     1>freetype2412_D.lib(ftbase.obj) : warning LNK4006: _FT_Vector_Length already defined in freetype2412.lib(ftbase.obj); second definition ignored
+     1>freetype2412_D.lib(ftbase.obj) : warning LNK4006: _FT_Vector_Polarize already defined in freetype2412.lib(ftbase.obj); second definition ignored
+     1>freetype2412_D.lib(ftbase.obj) : warning LNK4006: _FT_Vector_From_Polar already defined in freetype2412.lib(ftbase.obj); second definition ignored
+     1>freetype2412_D.lib(ftbase.obj) : warning LNK4006: _FT_SqrtFixed already defined in freetype2412.lib(ftbase.obj); second definition ignored
+     1>freetype2412_D.lib(ftbase.obj) : warning LNK4006: _FT_MulDiv_No_Round already defined in freetype2412.lib(ftbase.obj); second definition ignored
+     1>freetype2412_D.lib(ftbase.obj) : warning LNK4006: _FT_Matrix_Multiply_Scaled already defined in freetype2412.lib(ftbase.obj); second definition ignored
+     1>freetype2412_D.lib(ftbase.obj) : warning LNK4006: _FT_Vector_Transform_Scaled already defined in freetype2412.lib(ftbase.obj); second definition ignored
+     1>freetype2412_D.lib(ftbase.obj) : warning LNK4006: _ft_corner_orientation already defined in freetype2412.lib(ftbase.obj); second definition ignored
+     1>freetype2412_D.lib(ftbase.obj) : warning LNK4006: _ft_corner_is_flat already defined in freetype2412.lib(ftbase.obj); second definition ignored
+     1>freetype2412_D.lib(ftbase.obj) : warning LNK4006: _FT_MSB already defined in freetype2412.lib(ftbase.obj); second definition ignored
+     1>freetype2412_D.lib(ftbase.obj) : warning LNK4006: _FT_Hypot already defined in freetype2412.lib(ftbase.obj); second definition ignored
+     1>freetype2412_D.lib(ftbase.obj) : warning LNK4006: _FT_MulFix already defined in freetype2412.lib(ftbase.obj); second definition ignored
+     1>freetype2412_D.lib(ftbase.obj) : warning LNK4006: _FT_List_Find already defined in freetype2412.lib(ftbase.obj); second definition ignored
+     1>freetype2412_D.lib(ftbase.obj) : warning LNK4006: _FT_List_Add already defined in freetype2412.lib(ftbase.obj); second definition ignored
+     1>freetype2412_D.lib(ftbase.obj) : warning LNK4006: _FT_List_Insert already defined in freetype2412.lib(ftbase.obj); second definition ignored
+     1>freetype2412_D.lib(ftbase.obj) : warning LNK4006: _FT_List_Remove already defined in freetype2412.lib(ftbase.obj); second definition ignored
+     1>freetype2412_D.lib(ftbase.obj) : warning LNK4006: _FT_List_Up already defined in freetype2412.lib(ftbase.obj); second definition ignored
+     1>freetype2412_D.lib(ftbase.obj) : warning LNK4006: _FT_List_Iterate already defined in freetype2412.lib(ftbase.obj); second definition ignored
+     1>freetype2412_D.lib(ftbase.obj) : warning LNK4006: _FT_List_Finalize already defined in freetype2412.lib(ftbase.obj); second definition ignored
+     1>freetype2412_D.lib(ftbase.obj) : warning LNK4006: _FT_Outline_Decompose already defined in freetype2412.lib(ftbase.obj); second definition ignored
+     1>freetype2412_D.lib(ftbase.obj) : warning LNK4006: _FT_Outline_New already defined in freetype2412.lib(ftbase.obj); second definition ignored
+     1>freetype2412_D.lib(ftbase.obj) : warning LNK4006: _FT_Outline_New_Internal already defined in freetype2412.lib(ftbase.obj); second definition ignored
+     1>freetype2412_D.lib(ftbase.obj) : warning LNK4006: _FT_Outline_Done already defined in freetype2412.lib(ftbase.obj); second definition ignored
+     1>freetype2412_D.lib(ftbase.obj) : warning LNK4006: _FT_Outline_Done_Internal already defined in freetype2412.lib(ftbase.obj); second definition ignored
+     1>freetype2412_D.lib(ftbase.obj) : warning LNK4006: _FT_Outline_Check already defined in freetype2412.lib(ftbase.obj); second definition ignored
+     1>freetype2412_D.lib(ftbase.obj) : warning LNK4006: _FT_Outline_Get_CBox already defined in freetype2412.lib(ftbase.obj); second definition ignored
+     1>freetype2412_D.lib(ftbase.obj) : warning LNK4006: _FT_Outline_Translate already defined in freetype2412.lib(ftbase.obj); second definition ignored
+     1>freetype2412_D.lib(ftbase.obj) : warning LNK4006: _FT_Outline_Copy already defined in freetype2412.lib(ftbase.obj); second definition ignored
+     1>freetype2412_D.lib(ftbase.obj) : warning LNK4006: _FT_Outline_Transform already defined in freetype2412.lib(ftbase.obj); second definition ignored
+     1>freetype2412_D.lib(ftbase.obj) : warning LNK4006: _FT_Outline_Embolden already defined in freetype2412.lib(ftbase.obj); second definition ignored
+     1>freetype2412_D.lib(ftbase.obj) : warning LNK4006: _FT_Outline_EmboldenXY already defined in freetype2412.lib(ftbase.obj); second definition ignored
+     1>freetype2412_D.lib(ftbase.obj) : warning LNK4006: _FT_Outline_Reverse already defined in freetype2412.lib(ftbase.obj); second definition ignored
+     1>freetype2412_D.lib(ftbase.obj) : warning LNK4006: _FT_Outline_Get_Bitmap already defined in freetype2412.lib(ftbase.obj); second definition ignored
+     1>freetype2412_D.lib(ftbase.obj) : warning LNK4006: _FT_Outline_Render already defined in freetype2412.lib(ftbase.obj); second definition ignored
+     1>freetype2412_D.lib(ftbase.obj) : warning LNK4006: _FT_Outline_Get_Orientation already defined in freetype2412.lib(ftbase.obj); second definition ignored
+     1>freetype2412_D.lib(ftbase.obj) : warning LNK4006: _ft_validator_init already defined in freetype2412.lib(ftbase.obj); second definition ignored
+     1>freetype2412_D.lib(ftbase.obj) : warning LNK4006: _ft_validator_run already defined in freetype2412.lib(ftbase.obj); second definition ignored
+     1>freetype2412_D.lib(ftbase.obj) : warning LNK4006: _ft_validator_error already defined in freetype2412.lib(ftbase.obj); second definition ignored
+     1>freetype2412_D.lib(ftbase.obj) : warning LNK4006: _FT_Raccess_Guess already defined in freetype2412.lib(ftbase.obj); second definition ignored
+     1>freetype2412_D.lib(ftbase.obj) : warning LNK4006: _FT_Raccess_Get_HeaderInfo already defined in freetype2412.lib(ftbase.obj); second definition ignored
+     1>freetype2412_D.lib(ftbase.obj) : warning LNK4006: _FT_Raccess_Get_DataOffsets already defined in freetype2412.lib(ftbase.obj); second definition ignored
+     1>freetype2412_D.lib(ftbase.obj) : warning LNK4006: _FT_Stream_New already defined in freetype2412.lib(ftbase.obj); second definition ignored
+     1>freetype2412_D.lib(ftbase.obj) : warning LNK4006: _FT_Stream_Free already defined in freetype2412.lib(ftbase.obj); second definition ignored
+     1>freetype2412_D.lib(ftbase.obj) : warning LNK4006: _FT_Stream_OpenMemory already defined in freetype2412.lib(ftbase.obj); second definition ignored
+     1>freetype2412_D.lib(ftbase.obj) : warning LNK4006: _FT_Stream_Close already defined in freetype2412.lib(ftbase.obj); second definition ignored
+     1>freetype2412_D.lib(ftbase.obj) : warning LNK4006: _FT_Stream_Seek already defined in freetype2412.lib(ftbase.obj); second definition ignored
+     1>freetype2412_D.lib(ftbase.obj) : warning LNK4006: _FT_Stream_Skip already defined in freetype2412.lib(ftbase.obj); second definition ignored
+     1>freetype2412_D.lib(ftbase.obj) : warning LNK4006: _FT_Stream_Pos already defined in freetype2412.lib(ftbase.obj); second definition ignored
+     1>freetype2412_D.lib(ftbase.obj) : warning LNK4006: _FT_Stream_Read already defined in freetype2412.lib(ftbase.obj); second definition ignored
+     1>freetype2412_D.lib(ftbase.obj) : warning LNK4006: _FT_Stream_ReadAt already defined in freetype2412.lib(ftbase.obj); second definition ignored
+     1>freetype2412_D.lib(ftbase.obj) : warning LNK4006: _FT_Stream_TryRead already defined in freetype2412.lib(ftbase.obj); second definition ignored
+     1>freetype2412_D.lib(ftbase.obj) : warning LNK4006: _FT_Stream_EnterFrame already defined in freetype2412.lib(ftbase.obj); second definition ignored
+     1>freetype2412_D.lib(ftbase.obj) : warning LNK4006: _FT_Stream_ExitFrame already defined in freetype2412.lib(ftbase.obj); second definition ignored
+     1>freetype2412_D.lib(ftbase.obj) : warning LNK4006: _FT_Stream_ExtractFrame already defined in freetype2412.lib(ftbase.obj); second definition ignored
+     1>freetype2412_D.lib(ftbase.obj) : warning LNK4006: _FT_Stream_ReleaseFrame already defined in freetype2412.lib(ftbase.obj); second definition ignored
+     1>freetype2412_D.lib(ftbase.obj) : warning LNK4006: _FT_Stream_GetChar already defined in freetype2412.lib(ftbase.obj); second definition ignored
+     1>freetype2412_D.lib(ftbase.obj) : warning LNK4006: _FT_Stream_GetUShort already defined in freetype2412.lib(ftbase.obj); second definition ignored
+     1>freetype2412_D.lib(ftbase.obj) : warning LNK4006: _FT_Stream_GetUOffset already defined in freetype2412.lib(ftbase.obj); second definition ignored
+     1>freetype2412_D.lib(ftbase.obj) : warning LNK4006: _FT_Stream_GetULong already defined in freetype2412.lib(ftbase.obj); second definition ignored
+     1>freetype2412_D.lib(ftbase.obj) : warning LNK4006: _FT_Stream_GetUShortLE already defined in freetype2412.lib(ftbase.obj); second definition ignored
+     1>freetype2412_D.lib(ftbase.obj) : warning LNK4006: _FT_Stream_GetULongLE already defined in freetype2412.lib(ftbase.obj); second definition ignored
+     1>freetype2412_D.lib(ftbase.obj) : warning LNK4006: _FT_Stream_ReadChar already defined in freetype2412.lib(ftbase.obj); second definition ignored
+     1>freetype2412_D.lib(ftbase.obj) : warning LNK4006: _FT_Stream_ReadUShort already defined in freetype2412.lib(ftbase.obj); second definition ignored
+     1>freetype2412_D.lib(ftbase.obj) : warning LNK4006: _FT_Stream_ReadUOffset already defined in freetype2412.lib(ftbase.obj); second definition ignored
+     1>freetype2412_D.lib(ftbase.obj) : warning LNK4006: _FT_Stream_ReadULong already defined in freetype2412.lib(ftbase.obj); second definition ignored
+     1>freetype2412_D.lib(ftbase.obj) : warning LNK4006: _FT_Stream_ReadUShortLE already defined in freetype2412.lib(ftbase.obj); second definition ignored
+     1>freetype2412_D.lib(ftbase.obj) : warning LNK4006: _FT_Stream_ReadULongLE already defined in freetype2412.lib(ftbase.obj); second definition ignored
+     1>freetype2412_D.lib(ftbase.obj) : warning LNK4006: _FT_Stream_ReadFields already defined in freetype2412.lib(ftbase.obj); second definition ignored
+     1>freetype2412_D.lib(ftbase.obj) : warning LNK4006: _FT_Get_Sfnt_Table already defined in freetype2412.lib(ftbase.obj); second definition ignored
+     1>freetype2412_D.lib(ftbase.obj) : warning LNK4006: _FT_Load_Sfnt_Table already defined in freetype2412.lib(ftbase.obj); second definition ignored
+     1>freetype2412_D.lib(ftbase.obj) : warning LNK4006: _FT_Sfnt_Table_Info already defined in freetype2412.lib(ftbase.obj); second definition ignored
+     1>freetype2412_D.lib(ftbase.obj) : warning LNK4006: _FT_Get_CMap_Language_ID already defined in freetype2412.lib(ftbase.obj); second definition ignored
+     1>freetype2412_D.lib(ftbase.obj) : warning LNK4006: _FT_Get_CMap_Format already defined in freetype2412.lib(ftbase.obj); second definition ignored
+     1>freetype2412_D.lib(ftbase.obj) : warning LNK4006: _ft_property_do already defined in freetype2412.lib(ftbase.obj); second definition ignored
+     1>freetype2412_D.lib(ftbase.obj) : warning LNK4006: _FT_Get_Sfnt_Name_Count already defined in freetype2412.lib(ftbase.obj); second definition ignored
+     1>freetype2412_D.lib(ftbase.obj) : warning LNK4006: _FT_Get_Sfnt_Name already defined in freetype2412.lib(ftbase.obj); second definition ignored
+     1>freetype2412_D.lib(ftbitmap.obj) : warning LNK4006: _FT_Bitmap_New already defined in freetype2412.lib(ftbitmap.obj); second definition ignored
+     1>freetype2412_D.lib(ftbitmap.obj) : warning LNK4006: _FT_Bitmap_Copy already defined in freetype2412.lib(ftbitmap.obj); second definition ignored
+     1>freetype2412_D.lib(ftbitmap.obj) : warning LNK4006: _FT_Bitmap_Embolden already defined in freetype2412.lib(ftbitmap.obj); second definition ignored
+     1>freetype2412_D.lib(ftbitmap.obj) : warning LNK4006: _FT_Bitmap_Convert already defined in freetype2412.lib(ftbitmap.obj); second definition ignored
+     1>freetype2412_D.lib(ftbitmap.obj) : warning LNK4006: _FT_GlyphSlot_Own_Bitmap already defined in freetype2412.lib(ftbitmap.obj); second definition ignored
+     1>freetype2412_D.lib(ftbitmap.obj) : warning LNK4006: _FT_Bitmap_Done already defined in freetype2412.lib(ftbitmap.obj); second definition ignored
+     1>freetype2412_D.lib(ftbitmap.obj) : warning LNK4221: This object file does not define any previously undefined public symbols, so it will not be used by any link operation that consumes this library
+     1>freetype2412_D.lib(ftcache.obj) : warning LNK4006: _ftc_basic_sbit_family_class already defined in freetype2412.lib(ftcache.obj); second definition ignored
+     1>freetype2412_D.lib(ftcache.obj) : warning LNK4006: _ftc_basic_sbit_cache_class already defined in freetype2412.lib(ftcache.obj); second definition ignored
+     1>freetype2412_D.lib(ftcache.obj) : warning LNK4006: _ftc_cmap_cache_class already defined in freetype2412.lib(ftcache.obj); second definition ignored
+     1>freetype2412_D.lib(ftcache.obj) : warning LNK4006: _ftc_size_list_class already defined in freetype2412.lib(ftcache.obj); second definition ignored
+     1>freetype2412_D.lib(ftcache.obj) : warning LNK4006: _ftc_face_list_class already defined in freetype2412.lib(ftcache.obj); second definition ignored
+     1>freetype2412_D.lib(ftcache.obj) : warning LNK4006: _ftc_basic_image_family_class already defined in freetype2412.lib(ftcache.obj); second definition ignored
+     1>freetype2412_D.lib(ftcache.obj) : warning LNK4006: _ftc_basic_image_cache_class already defined in freetype2412.lib(ftcache.obj); second definition ignored
+     1>freetype2412_D.lib(ftcache.obj) : warning LNK4006: _FTC_Manager_New already defined in freetype2412.lib(ftcache.obj); second definition ignored
+     1>freetype2412_D.lib(ftcache.obj) : warning LNK4006: _FTC_Manager_Reset already defined in freetype2412.lib(ftcache.obj); second definition ignored
+     1>freetype2412_D.lib(ftcache.obj) : warning LNK4006: _FTC_Manager_Done already defined in freetype2412.lib(ftcache.obj); second definition ignored
+     1>freetype2412_D.lib(ftcache.obj) : warning LNK4006: _FTC_Manager_LookupFace already defined in freetype2412.lib(ftcache.obj); second definition ignored
+     1>freetype2412_D.lib(ftcache.obj) : warning LNK4006: _FTC_Manager_LookupSize already defined in freetype2412.lib(ftcache.obj); second definition ignored
+     1>freetype2412_D.lib(ftcache.obj) : warning LNK4006: _FTC_Node_Unref already defined in freetype2412.lib(ftcache.obj); second definition ignored
+     1>freetype2412_D.lib(ftcache.obj) : warning LNK4006: _FTC_Manager_RemoveFaceID already defined in freetype2412.lib(ftcache.obj); second definition ignored
+     1>freetype2412_D.lib(ftcache.obj) : warning LNK4006: _FTC_CMapCache_New already defined in freetype2412.lib(ftcache.obj); second definition ignored
+     1>freetype2412_D.lib(ftcache.obj) : warning LNK4006: _FTC_CMapCache_Lookup already defined in freetype2412.lib(ftcache.obj); second definition ignored
+     1>freetype2412_D.lib(ftcache.obj) : warning LNK4006: _FTC_ImageCache_New already defined in freetype2412.lib(ftcache.obj); second definition ignored
+     1>freetype2412_D.lib(ftcache.obj) : warning LNK4006: _FTC_ImageCache_Lookup already defined in freetype2412.lib(ftcache.obj); second definition ignored
+     1>freetype2412_D.lib(ftcache.obj) : warning LNK4006: _FTC_ImageCache_LookupScaler already defined in freetype2412.lib(ftcache.obj); second definition ignored
+     1>freetype2412_D.lib(ftcache.obj) : warning LNK4006: _FTC_SBitCache_New already defined in freetype2412.lib(ftcache.obj); second definition ignored
+     1>freetype2412_D.lib(ftcache.obj) : warning LNK4006: _FTC_SBitCache_Lookup already defined in freetype2412.lib(ftcache.obj); second definition ignored
+     1>freetype2412_D.lib(ftcache.obj) : warning LNK4006: _FTC_SBitCache_LookupScaler already defined in freetype2412.lib(ftcache.obj); second definition ignored
+     1>freetype2412_D.lib(ftcache.obj) : warning LNK4221: This object file does not define any previously undefined public symbols, so it will not be used by any link operation that consumes this library
+     1>freetype2412_D.lib(ftfstype.obj) : warning LNK4006: _FT_Get_FSType_Flags already defined in freetype2412.lib(ftfstype.obj); second definition ignored
+     1>freetype2412_D.lib(ftfstype.obj) : warning LNK4221: This object file does not define any previously undefined public symbols, so it will not be used by any link operation that consumes this library
+     1>freetype2412_D.lib(ftgasp.obj) : warning LNK4006: _FT_Get_Gasp already defined in freetype2412.lib(ftgasp.obj); second definition ignored
+     1>freetype2412_D.lib(ftgasp.obj) : warning LNK4221: This object file does not define any previously undefined public symbols, so it will not be used by any link operation that consumes this library
+     1>freetype2412_D.lib(ftglyph.obj) : warning LNK4006: _ft_outline_glyph_class already defined in freetype2412.lib(ftglyph.obj); second definition ignored
+     1>freetype2412_D.lib(ftglyph.obj) : warning LNK4006: _ft_bitmap_glyph_class already defined in freetype2412.lib(ftglyph.obj); second definition ignored
+     1>freetype2412_D.lib(ftglyph.obj) : warning LNK4006: _FT_Get_Glyph already defined in freetype2412.lib(ftglyph.obj); second definition ignored
+     1>freetype2412_D.lib(ftglyph.obj) : warning LNK4006: _FT_Glyph_Copy already defined in freetype2412.lib(ftglyph.obj); second definition ignored
+     1>freetype2412_D.lib(ftglyph.obj) : warning LNK4006: _FT_Glyph_Transform already defined in freetype2412.lib(ftglyph.obj); second definition ignored
+     1>freetype2412_D.lib(ftglyph.obj) : warning LNK4006: _FT_Glyph_Get_CBox already defined in freetype2412.lib(ftglyph.obj); second definition ignored
+     1>freetype2412_D.lib(ftglyph.obj) : warning LNK4006: _FT_Glyph_To_Bitmap already defined in freetype2412.lib(ftglyph.obj); second definition ignored
+     1>freetype2412_D.lib(ftglyph.obj) : warning LNK4006: _FT_Done_Glyph already defined in freetype2412.lib(ftglyph.obj); second definition ignored
+     1>freetype2412_D.lib(ftglyph.obj) : warning LNK4221: This object file does not define any previously undefined public symbols, so it will not be used by any link operation that consumes this library
+     1>freetype2412_D.lib(ftgzip.obj) : warning LNK4006: _FT_Stream_OpenGzip already defined in freetype2412.lib(ftgzip.obj); second definition ignored
+     1>freetype2412_D.lib(ftgzip.obj) : warning LNK4221: This object file does not define any previously undefined public symbols, so it will not be used by any link operation that consumes this library
+     1>freetype2412_D.lib(ftinit.obj) : warning LNK4006: _FT_Init_FreeType already defined in freetype2412.lib(ftinit.obj); second definition ignored
+     1>freetype2412_D.lib(ftinit.obj) : warning LNK4006: _FT_Done_FreeType already defined in freetype2412.lib(ftinit.obj); second definition ignored
+     1>freetype2412_D.lib(ftinit.obj) : warning LNK4006: _FT_Add_Default_Modules already defined in freetype2412.lib(ftinit.obj); second definition ignored
+     1>freetype2412_D.lib(ftinit.obj) : warning LNK4221: This object file does not define any previously undefined public symbols, so it will not be used by any link operation that consumes this library
+     1>freetype2412_D.lib(ftlzw.obj) : warning LNK4006: _FT_Stream_OpenLZW already defined in freetype2412.lib(ftlzw.obj); second definition ignored
+     1>freetype2412_D.lib(ftlzw.obj) : warning LNK4006: _ft_lzwstate_init already defined in freetype2412.lib(ftlzw.obj); second definition ignored
+     1>freetype2412_D.lib(ftlzw.obj) : warning LNK4006: _ft_lzwstate_done already defined in freetype2412.lib(ftlzw.obj); second definition ignored
+     1>freetype2412_D.lib(ftlzw.obj) : warning LNK4006: _ft_lzwstate_reset already defined in freetype2412.lib(ftlzw.obj); second definition ignored
+     1>freetype2412_D.lib(ftlzw.obj) : warning LNK4006: _ft_lzwstate_io already defined in freetype2412.lib(ftlzw.obj); second definition ignored
+     1>freetype2412_D.lib(ftlzw.obj) : warning LNK4221: This object file does not define any previously undefined public symbols, so it will not be used by any link operation that consumes this library
+     1>freetype2412_D.lib(ftstroke.obj) : warning LNK4006: _FT_Outline_GetInsideBorder already defined in freetype2412.lib(ftstroke.obj); second definition ignored
+     1>freetype2412_D.lib(ftstroke.obj) : warning LNK4006: _FT_Outline_GetOutsideBorder already defined in freetype2412.lib(ftstroke.obj); second definition ignored
+     1>freetype2412_D.lib(ftstroke.obj) : warning LNK4006: _FT_Stroker_New already defined in freetype2412.lib(ftstroke.obj); second definition ignored
+     1>freetype2412_D.lib(ftstroke.obj) : warning LNK4006: _FT_Stroker_Set already defined in freetype2412.lib(ftstroke.obj); second definition ignored
+     1>freetype2412_D.lib(ftstroke.obj) : warning LNK4006: _FT_Stroker_Rewind already defined in freetype2412.lib(ftstroke.obj); second definition ignored
+     1>freetype2412_D.lib(ftstroke.obj) : warning LNK4006: _FT_Stroker_ParseOutline already defined in freetype2412.lib(ftstroke.obj); second definition ignored
+     1>freetype2412_D.lib(ftstroke.obj) : warning LNK4006: _FT_Stroker_BeginSubPath already defined in freetype2412.lib(ftstroke.obj); second definition ignored
+     1>freetype2412_D.lib(ftstroke.obj) : warning LNK4006: _FT_Stroker_EndSubPath already defined in freetype2412.lib(ftstroke.obj); second definition ignored
+     1>freetype2412_D.lib(ftstroke.obj) : warning LNK4006: _FT_Stroker_LineTo already defined in freetype2412.lib(ftstroke.obj); second definition ignored
+     1>freetype2412_D.lib(ftstroke.obj) : warning LNK4006: _FT_Stroker_ConicTo already defined in freetype2412.lib(ftstroke.obj); second definition ignored
+     1>freetype2412_D.lib(ftstroke.obj) : warning LNK4006: _FT_Stroker_CubicTo already defined in freetype2412.lib(ftstroke.obj); second definition ignored
+     1>freetype2412_D.lib(ftstroke.obj) : warning LNK4006: _FT_Stroker_GetBorderCounts already defined in freetype2412.lib(ftstroke.obj); second definition ignored
+     1>freetype2412_D.lib(ftstroke.obj) : warning LNK4006: _FT_Stroker_ExportBorder already defined in freetype2412.lib(ftstroke.obj); second definition ignored
+     1>freetype2412_D.lib(ftstroke.obj) : warning LNK4006: _FT_Stroker_GetCounts already defined in freetype2412.lib(ftstroke.obj); second definition ignored
+     1>freetype2412_D.lib(ftstroke.obj) : warning LNK4006: _FT_Stroker_Export already defined in freetype2412.lib(ftstroke.obj); second definition ignored
+     1>freetype2412_D.lib(ftstroke.obj) : warning LNK4006: _FT_Stroker_Done already defined in freetype2412.lib(ftstroke.obj); second definition ignored
+     1>freetype2412_D.lib(ftstroke.obj) : warning LNK4006: _FT_Glyph_Stroke already defined in freetype2412.lib(ftstroke.obj); second definition ignored
+     1>freetype2412_D.lib(ftstroke.obj) : warning LNK4006: _FT_Glyph_StrokeBorder already defined in freetype2412.lib(ftstroke.obj); second definition ignored
+     1>freetype2412_D.lib(ftstroke.obj) : warning LNK4221: This object file does not define any previously undefined public symbols, so it will not be used by any link operation that consumes this library
+     1>freetype2412_D.lib(ftsystem.obj) : warning LNK4006: _FT_New_Memory already defined in freetype2412.lib(ftsystem.obj); second definition ignored
+     1>freetype2412_D.lib(ftsystem.obj) : warning LNK4006: _FT_Done_Memory already defined in freetype2412.lib(ftsystem.obj); second definition ignored
+     1>freetype2412_D.lib(ftsystem.obj) : warning LNK4006: _FT_Stream_Open already defined in freetype2412.lib(ftsystem.obj); second definition ignored
+     1>freetype2412_D.lib(ftsystem.obj) : warning LNK4221: This object file does not define any previously undefined public symbols, so it will not be used by any link operation that consumes this library
+     1>freetype2412_D.lib(smooth.obj) : warning LNK4006: _ft_smooth_renderer_class already defined in freetype2412.lib(smooth.obj); second definition ignored
+     1>freetype2412_D.lib(smooth.obj) : warning LNK4006: _ft_smooth_lcd_renderer_class already defined in freetype2412.lib(smooth.obj); second definition ignored
+     1>freetype2412_D.lib(smooth.obj) : warning LNK4006: _ft_grays_raster already defined in freetype2412.lib(smooth.obj); second definition ignored
+     1>freetype2412_D.lib(smooth.obj) : warning LNK4006: _ft_smooth_lcdv_renderer_class already defined in freetype2412.lib(smooth.obj); second definition ignored
+     1>freetype2412_D.lib(smooth.obj) : warning LNK4221: This object file does not define any previously undefined public symbols, so it will not be used by any link operation that consumes this library
+     1>freetype2412_D.lib(ftbbox.obj) : warning LNK4006: _FT_Outline_Get_BBox already defined in freetype2412.lib(ftbbox.obj); second definition ignored
+     1>freetype2412_D.lib(ftbbox.obj) : warning LNK4221: This object file does not define any previously undefined public symbols, so it will not be used by any link operation that consumes this library
+     1>freetype2412_D.lib(ftmm.obj) : warning LNK4006: _FT_Get_Multi_Master already defined in freetype2412.lib(ftmm.obj); second definition ignored
+     1>freetype2412_D.lib(ftmm.obj) : warning LNK4006: _FT_Get_MM_Var already defined in freetype2412.lib(ftmm.obj); second definition ignored
+     1>freetype2412_D.lib(ftmm.obj) : warning LNK4006: _FT_Set_MM_Design_Coordinates already defined in freetype2412.lib(ftmm.obj); second definition ignored
+     1>freetype2412_D.lib(ftmm.obj) : warning LNK4006: _FT_Set_Var_Design_Coordinates already defined in freetype2412.lib(ftmm.obj); second definition ignored
+     1>freetype2412_D.lib(ftmm.obj) : warning LNK4006: _FT_Set_MM_Blend_Coordinates already defined in freetype2412.lib(ftmm.obj); second definition ignored
+     1>freetype2412_D.lib(ftmm.obj) : warning LNK4006: _FT_Set_Var_Blend_Coordinates already defined in freetype2412.lib(ftmm.obj); second definition ignored
+     1>freetype2412_D.lib(ftmm.obj) : warning LNK4221: This object file does not define any previously undefined public symbols, so it will not be used by any link operation that consumes this library
+     1>freetype2412_D.lib(ftpfr.obj) : warning LNK4006: _FT_Get_PFR_Metrics already defined in freetype2412.lib(ftpfr.obj); second definition ignored
+     1>freetype2412_D.lib(ftpfr.obj) : warning LNK4006: _FT_Get_PFR_Kerning already defined in freetype2412.lib(ftpfr.obj); second definition ignored
+     1>freetype2412_D.lib(ftpfr.obj) : warning LNK4006: _FT_Get_PFR_Advance already defined in freetype2412.lib(ftpfr.obj); second definition ignored
+     1>freetype2412_D.lib(ftpfr.obj) : warning LNK4221: This object file does not define any previously undefined public symbols, so it will not be used by any link operation that consumes this library
+     1>freetype2412_D.lib(ftsynth.obj) : warning LNK4006: _FT_GlyphSlot_Embolden already defined in freetype2412.lib(ftsynth.obj); second definition ignored
+     1>freetype2412_D.lib(ftsynth.obj) : warning LNK4006: _FT_GlyphSlot_Oblique already defined in freetype2412.lib(ftsynth.obj); second definition ignored
+     1>freetype2412_D.lib(ftsynth.obj) : warning LNK4221: This object file does not define any previously undefined public symbols, so it will not be used by any link operation that consumes this library
+     1>freetype2412_D.lib(fttype1.obj) : warning LNK4006: _FT_Has_PS_Glyph_Names already defined in freetype2412.lib(fttype1.obj); second definition ignored
+     1>freetype2412_D.lib(fttype1.obj) : warning LNK4006: _FT_Get_PS_Font_Info already defined in freetype2412.lib(fttype1.obj); second definition ignored
+     1>freetype2412_D.lib(fttype1.obj) : warning LNK4006: _FT_Get_PS_Font_Private already defined in freetype2412.lib(fttype1.obj); second definition ignored
+     1>freetype2412_D.lib(fttype1.obj) : warning LNK4006: _FT_Get_PS_Font_Value already defined in freetype2412.lib(fttype1.obj); second definition ignored
+     1>freetype2412_D.lib(fttype1.obj) : warning LNK4221: This object file does not define any previously undefined public symbols, so it will not be used by any link operation that consumes this library
+     1>freetype2412_D.lib(ftwinfnt.obj) : warning LNK4006: _FT_Get_WinFNT_Header already defined in freetype2412.lib(ftwinfnt.obj); second definition ignored
+     1>freetype2412_D.lib(ftwinfnt.obj) : warning LNK4221: This object file does not define any previously undefined public symbols, so it will not be used by any link operation that consumes this library
+     1>freetype2412_D.lib(ftxf86.obj) : warning LNK4006: _FT_Get_X11_Font_Format already defined in freetype2412.lib(ftxf86.obj); second definition ignored
+     1>freetype2412_D.lib(ftxf86.obj) : warning LNK4221: This object file does not define any previously undefined public symbols, so it will not be used by any link operation that consumes this library
+     1>freetype2412_D.lib(ftlcdfil.obj) : warning LNK4006: _FT_Library_SetLcdFilter already defined in freetype2412.lib(ftlcdfil.obj); second definition ignored
+     1>freetype2412_D.lib(ftlcdfil.obj) : warning LNK4006: _FT_Library_SetLcdFilterWeights already defined in freetype2412.lib(ftlcdfil.obj); second definition ignored
+     1>freetype2412_D.lib(ftlcdfil.obj) : warning LNK4221: This object file does not define any previously undefined public symbols, so it will not be used by any link operation that consumes this library
+     1>freetype2412_D.lib(ftgxval.obj) : warning LNK4006: _FT_TrueTypeGX_Validate already defined in freetype2412.lib(ftgxval.obj); second definition ignored
+     1>freetype2412_D.lib(ftgxval.obj) : warning LNK4006: _FT_TrueTypeGX_Free already defined in freetype2412.lib(ftgxval.obj); second definition ignored
+     1>freetype2412_D.lib(ftgxval.obj) : warning LNK4006: _FT_ClassicKern_Validate already defined in freetype2412.lib(ftgxval.obj); second definition ignored
+     1>freetype2412_D.lib(ftgxval.obj) : warning LNK4006: _FT_ClassicKern_Free already defined in freetype2412.lib(ftgxval.obj); second definition ignored
+     1>freetype2412_D.lib(ftgxval.obj) : warning LNK4221: This object file does not define any previously undefined public symbols, so it will not be used by any link operation that consumes this library
+     1>freetype2412_D.lib(ftotval.obj) : warning LNK4006: _FT_OpenType_Validate already defined in freetype2412.lib(ftotval.obj); second definition ignored
+     1>freetype2412_D.lib(ftotval.obj) : warning LNK4006: _FT_OpenType_Free already defined in freetype2412.lib(ftotval.obj); second definition ignored
+     1>freetype2412_D.lib(ftotval.obj) : warning LNK4221: This object file does not define any previously undefined public symbols, so it will not be used by any link operation that consumes this library
+     1>freetype2412_D.lib(ftpatent.obj) : warning LNK4006: _FT_Face_CheckTrueTypePatents already defined in freetype2412.lib(ftpatent.obj); second definition ignored
+     1>freetype2412_D.lib(ftpatent.obj) : warning LNK4006: _FT_Face_SetUnpatentedHinting already defined in freetype2412.lib(ftpatent.obj); second definition ignored
+     1>freetype2412_D.lib(ftpatent.obj) : warning LNK4221: This object file does not define any previously undefined public symbols, so it will not be used by any link operation that consumes this library
+     1>freetype2412_D.lib(pcf.obj) : warning LNK4006: _pcf_driver_class already defined in freetype2412.lib(pcf.obj); second definition ignored
+     1>freetype2412_D.lib(pcf.obj) : warning LNK4006: _pcf_cmap_class already defined in freetype2412.lib(pcf.obj); second definition ignored
+     1>freetype2412_D.lib(pcf.obj) : warning LNK4221: This object file does not define any previously undefined public symbols, so it will not be used by any link operation that consumes this library
+     1>freetype2412_D.lib(pfr.obj) : warning LNK4006: _pfr_driver_class already defined in freetype2412.lib(pfr.obj); second definition ignored
+     1>freetype2412_D.lib(pfr.obj) : warning LNK4006: _pfr_metrics_service_rec already defined in freetype2412.lib(pfr.obj); second definition ignored
+     1>freetype2412_D.lib(pfr.obj) : warning LNK4006: _pfr_cmap_class_rec already defined in freetype2412.lib(pfr.obj); second definition ignored
+     1>freetype2412_D.lib(pfr.obj) : warning LNK4221: This object file does not define any previously undefined public symbols, so it will not be used by any link operation that consumes this library
+     1>freetype2412_D.lib(psaux.obj) : warning LNK4006: _t1_decoder_funcs already defined in freetype2412.lib(psaux.obj); second definition ignored
+     1>freetype2412_D.lib(psaux.obj) : warning LNK4006: _ps_table_funcs already defined in freetype2412.lib(psaux.obj); second definition ignored
+     1>freetype2412_D.lib(psaux.obj) : warning LNK4006: _ps_parser_funcs already defined in freetype2412.lib(psaux.obj); second definition ignored
+     1>freetype2412_D.lib(psaux.obj) : warning LNK4006: _t1_builder_funcs already defined in freetype2412.lib(psaux.obj); second definition ignored
+     1>freetype2412_D.lib(psaux.obj) : warning LNK4006: _t1_cmap_standard_class_rec already defined in freetype2412.lib(psaux.obj); second definition ignored
+     1>freetype2412_D.lib(psaux.obj) : warning LNK4006: _t1_cmap_expert_class_rec already defined in freetype2412.lib(psaux.obj); second definition ignored
+     1>freetype2412_D.lib(psaux.obj) : warning LNK4006: _t1_cmap_custom_class_rec already defined in freetype2412.lib(psaux.obj); second definition ignored
+     1>freetype2412_D.lib(psaux.obj) : warning LNK4006: _t1_cmap_unicode_class_rec already defined in freetype2412.lib(psaux.obj); second definition ignored
+     1>freetype2412_D.lib(psaux.obj) : warning LNK4006: _afm_parser_funcs already defined in freetype2412.lib(psaux.obj); second definition ignored
+     1>freetype2412_D.lib(psaux.obj) : warning LNK4006: _t1_cmap_classes already defined in freetype2412.lib(psaux.obj); second definition ignored
+     1>freetype2412_D.lib(psaux.obj) : warning LNK4006: _psaux_module_class already defined in freetype2412.lib(psaux.obj); second definition ignored
+     1>freetype2412_D.lib(psaux.obj) : warning LNK4221: This object file does not define any previously undefined public symbols, so it will not be used by any link operation that consumes this library
+     1>freetype2412_D.lib(pshinter.obj) : warning LNK4006: _pshinter_module_class already defined in freetype2412.lib(pshinter.obj); second definition ignored
+     1>freetype2412_D.lib(pshinter.obj) : warning LNK4006: _ps_hints_apply already defined in freetype2412.lib(pshinter.obj); second definition ignored
+     1>freetype2412_D.lib(pshinter.obj) : warning LNK4221: This object file does not define any previously undefined public symbols, so it will not be used by any link operation that consumes this library
+     1>freetype2412_D.lib(psmodule.obj) : warning LNK4006: _psnames_module_class already defined in freetype2412.lib(psmodule.obj); second definition ignored
+     1>freetype2412_D.lib(psmodule.obj) : warning LNK4221: This object file does not define any previously undefined public symbols, so it will not be used by any link operation that consumes this library
+     1>freetype2412_D.lib(raster.obj) : warning LNK4006: _ft_raster1_renderer_class already defined in freetype2412.lib(raster.obj); second definition ignored
+     1>freetype2412_D.lib(raster.obj) : warning LNK4006: _ft_raster5_renderer_class already defined in freetype2412.lib(raster.obj); second definition ignored
+     1>freetype2412_D.lib(raster.obj) : warning LNK4006: _ft_standard_raster already defined in freetype2412.lib(raster.obj); second definition ignored
+     1>freetype2412_D.lib(raster.obj) : warning LNK4221: This object file does not define any previously undefined public symbols, so it will not be used by any link operation that consumes this library
+     1>freetype2412_D.lib(sfnt.obj) : warning LNK4006: _tt_cmap4_class_rec already defined in freetype2412.lib(sfnt.obj); second definition ignored
+     1>freetype2412_D.lib(sfnt.obj) : warning LNK4006: _tt_cmap13_class_rec already defined in freetype2412.lib(sfnt.obj); second definition ignored
+     1>freetype2412_D.lib(sfnt.obj) : warning LNK4006: _tt_cmap6_class_rec already defined in freetype2412.lib(sfnt.obj); second definition ignored
+     1>freetype2412_D.lib(sfnt.obj) : warning LNK4006: _tt_cmap0_class_rec already defined in freetype2412.lib(sfnt.obj); second definition ignored
+     1>freetype2412_D.lib(sfnt.obj) : warning LNK4006: _tt_cmap8_class_rec already defined in freetype2412.lib(sfnt.obj); second definition ignored
+     1>freetype2412_D.lib(sfnt.obj) : warning LNK4006: _sfnt_module_class already defined in freetype2412.lib(sfnt.obj); second definition ignored
+     1>freetype2412_D.lib(sfnt.obj) : warning LNK4006: _tt_cmap2_class_rec already defined in freetype2412.lib(sfnt.obj); second definition ignored
+     1>freetype2412_D.lib(sfnt.obj) : warning LNK4006: _tt_cmap10_class_rec already defined in freetype2412.lib(sfnt.obj); second definition ignored
+     1>freetype2412_D.lib(sfnt.obj) : warning LNK4006: _tt_cmap14_class_rec already defined in freetype2412.lib(sfnt.obj); second definition ignored
+     1>freetype2412_D.lib(sfnt.obj) : warning LNK4006: _tt_cmap12_class_rec already defined in freetype2412.lib(sfnt.obj); second definition ignored
+     1>freetype2412_D.lib(sfnt.obj) : warning LNK4221: This object file does not define any previously undefined public symbols, so it will not be used by any link operation that consumes this library
+     1>freetype2412_D.lib(truetype.obj) : warning LNK4006: _tt_driver_class already defined in freetype2412.lib(truetype.obj); second definition ignored
+     1>freetype2412_D.lib(truetype.obj) : warning LNK4006: _tt_default_graphics_state already defined in freetype2412.lib(truetype.obj); second definition ignored
+     1>freetype2412_D.lib(truetype.obj) : warning LNK4006: _TT_New_Context already defined in freetype2412.lib(truetype.obj); second definition ignored
+     1>freetype2412_D.lib(truetype.obj) : warning LNK4006: _TT_RunIns already defined in freetype2412.lib(truetype.obj); second definition ignored
+     1>freetype2412_D.lib(truetype.obj) : warning LNK4221: This object file does not define any previously undefined public symbols, so it will not be used by any link operation that consumes this library
+     1>freetype2412_D.lib(type1.obj) : warning LNK4006: _t1_driver_class already defined in freetype2412.lib(type1.obj); second definition ignored
+     1>freetype2412_D.lib(type1.obj) : warning LNK4221: This object file does not define any previously undefined public symbols, so it will not be used by any link operation that consumes this library
+     1>freetype2412_D.lib(type1cid.obj) : warning LNK4006: _t1cid_driver_class already defined in freetype2412.lib(type1cid.obj); second definition ignored
+     1>freetype2412_D.lib(type1cid.obj) : warning LNK4221: This object file does not define any previously undefined public symbols, so it will not be used by any link operation that consumes this library
+     1>freetype2412_D.lib(type42.obj) : warning LNK4006: _t42_driver_class already defined in freetype2412.lib(type42.obj); second definition ignored
+     1>freetype2412_D.lib(type42.obj) : warning LNK4221: This object file does not define any previously undefined public symbols, so it will not be used by any link operation that consumes this library
+     1>freetype2412_D.lib(winfnt.obj) : warning LNK4006: _winfnt_driver_class already defined in freetype2412.lib(winfnt.obj); second definition ignored
+     1>freetype2412_D.lib(winfnt.obj) : warning LNK4221: This object file does not define any previously undefined public symbols, so it will not be used by any link operation that consumes this library
+         SDL_ttf_VS2012.vcxproj -> H:\vs2013\cyclops-release\cyclops\external\SDL2_ttf-2.0.12\VisualC\Win32\Release\SDL2_ttf.lib
+     1>Done Building Project "H:\vs2013\cyclops-release\cyclops\external\SDL2_ttf-2.0.12\VisualC\SDL_ttf_VS2012.vcxproj" (Build target(s)).
+
+Build succeeded.
+
+Time Elapsed 00:00:02.01
